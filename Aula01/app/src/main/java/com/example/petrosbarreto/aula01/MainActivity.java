@@ -25,7 +25,7 @@ public class MainActivity extends ActionBarActivity {
         final EditText editN2 = (EditText) findViewById(R.id.editN2);
         final TextView textResultado = (TextView) findViewById(R.id.textResultado);
 
-        btn1.setOnClickListener(new View.OnClickListener() {
+        btn1.setOnClickListener(new View.OnClickListener() {   //aqui eh adicionado os efeitos do btn
             @Override
             public void onClick(View v) {
                 double n1 = Integer.parseInt(editN1.getText().toString());
