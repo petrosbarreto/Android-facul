@@ -27,7 +27,7 @@ public class MainActivity extends ActionBarActivity {
 
         btn1.setOnClickListener(new View.OnClickListener() {   //aqui eh adicionado os efeitos do btn
             @Override
-            public void onClick(View v) {
+            public void onClick(View v) { //isso eh alguma coisa que fui mostrar par ao yuri
                 double n1 = Integer.parseInt(editN1.getText().toString());
                 double n2 = Integer.parseInt(editN2.getText().toString());
                 textResultado.setText(""+(n1+n2)/2);
